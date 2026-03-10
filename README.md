@@ -17,4 +17,21 @@ monitoring/
 CloudWatch commands
 =======
 # aws-cli-toolkit
+AWS CLI Toolkit
 
+This repository contains AWS CLI scripts organized by service.
+
+Services included:
+- EC2
+- ECS
+- EKS
+- Lambda
+- S3
+- ECR
+- DynamoDB
+- RDS
+- VPC
+- Route53
+- API Gateway
+- CloudFront
+- CloudWatch
