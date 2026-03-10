@@ -47,3 +47,33 @@ Examples:
 ./lambda.sh
 ./dynamodb.sh
 ./cloudwatch.sh
+## Project Structure
+
+aws-cli-toolkit/
+│
+├── compute/
+│   ├── ec2.sh
+│   ├── ecs.sh
+│   ├── eks.sh
+│   └── lambda.sh
+│
+├── storage/
+│   ├── s3.sh
+│   └── ecr.sh
+│
+├── database/
+│   ├── dynamodb.sh
+│   └── rds.sh
+│
+├── networking/
+│   ├── vpc.sh
+│   ├── route53.sh
+│   ├── api-gateway.sh
+│   └── cloudfront.sh
+│
+├── monitoring/
+│   └── cloudwatch.sh
+│
+├── aws-cheatsheet.sh
+└── cleanup.sh
+
