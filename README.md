@@ -35,3 +35,15 @@ Services included:
 - API Gateway
 - CloudFront
 - CloudWatch
+## Usage
+
+Run the scripts using AWS CLI from CloudShell or a local terminal.
+
+Examples:
+
+./ec2.sh
+./s3.sh
+./vpc.sh
+./lambda.sh
+./dynamodb.sh
+./cloudwatch.sh
