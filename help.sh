@@ -1,0 +1,36 @@
+echo "AWS CLI TOOLKIT"
+echo "-------------------------"
+echo "Available command files:"
+echo ""
+
+echo "Compute"
+echo "ec2.sh"
+echo "lambda.sh"
+echo "ecs.sh"
+echo "eks.sh"
+
+echo ""
+echo "Storage"
+echo "s3.sh"
+echo "ecr.sh"
+
+echo ""
+echo "Database"
+echo "dynamodb.sh"
+echo "rds.sh"
+
+echo ""
+echo "Networking"
+echo "vpc.sh"
+echo "route53.sh"
+echo "api-gateway.sh"
+echo "cloudfront.sh"
+
+echo ""
+echo "Monitoring"
+echo "cloudwatch.sh"
+
+echo ""
+echo "Run scripts using:"
+echo "./ec2.sh"
+echo "./s3.sh"
